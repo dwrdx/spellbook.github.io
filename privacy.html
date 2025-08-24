@@ -1,0 +1,76 @@
+<section aria-labelledby="policy-title">
+  <h1 id="policy-title">Spell Book Privacy Policy</h1>
+  <p><strong>Effective date:</strong> 2025-08-24</p>
+
+  <h2>Overview</h2>
+  <p>
+    Spell Book is a prompt assistant and management tool. It helps you store, organize, and apply your favorite prompts on the pages you visit.
+    We designed it with a privacy-first approach and the principle of least privilege.
+  </p>
+
+  <h2>What We Collect</h2>
+  <ul>
+    <li>We do not collect personal information.</li>
+    <li>We do not transmit your data to our servers or any third parties.</li>
+    <li>We do not use analytics or tracking beacons.</li>
+  </ul>
+
+  <h2>What We Store</h2>
+  <ul>
+    <li>
+      The extension stores your prompts, folders/tags, and preferences in <code>chrome.storage</code>
+      (local or sync, depending on your browser settings).
+    </li>
+    <li>
+      This data stays in your browser profile (and may sync across your signed-in devices if you enable browser sync).
+    </li>
+    <li>
+      You can export/import your data and delete it at any time via the extension UI or your browser’s extension data controls.
+    </li>
+  </ul>
+
+  <h2>Access to Page Content</h2>
+  <ul>
+    <li>
+      The extension only interacts with the current page when you explicitly invoke it (e.g., by clicking the toolbar icon,
+      using a context menu, or on sites you allow).
+    </li>
+    <li>
+      Content scripts are injected on demand to perform limited, non-destructive actions such as inserting text or showing a small UI/notification.
+    </li>
+    <li>
+      The page content we access is used solely to fulfill your requested action. It is not stored outside of your browser storage and is never transmitted.
+    </li>
+  </ul>
+
+  <h2>Permissions and Why They’re Needed</h2>
+  <ul>
+    <li><strong>storage:</strong> To save your prompts, folders/tags, and settings so they persist across sessions. No personal data is uploaded.</li>
+    <li><strong>contextMenus:</strong> To provide optional right-click actions that you can explicitly invoke.</li>
+    <li><strong>activeTab:</strong> To grant temporary access to the current tab only when you trigger the extension, enabling one-time page enhancements.</li>
+    <li><strong>scripting:</strong> To inject/execute minimal content scripts on demand to perform requested actions (e.g., insert text, show a toast/popup).</li>
+    <li><strong>host permissions:</strong> To allow content scripts to run on the sites you visit (or specific sites you choose) strictly to provide the features you request. No background scraping or cross-site tracking.</li>
+  </ul>
+
+  <h2>Data Sharing and Sale</h2>
+  <p>We do not sell, rent, or share your data with third parties.</p>
+
+  <h2>Children’s Privacy</h2>
+  <p>The extension is not directed to children under 13. We do not knowingly collect personal information from children.</p>
+
+  <h2>Security</h2>
+  <p>
+    We take reasonable measures to protect your data stored in <code>chrome.storage</code>, but no method of electronic storage is 100% secure.
+  </p>
+
+  <h2>Changes to This Policy</h2>
+  <p>
+    We may update this policy from time to time. Material changes will be reflected in the extension’s release notes and/or store listing with an updated effective date.
+  </p>
+
+  // <h2>Contact</h2>
+  // <p>
+  //   If you have questions or requests about this policy, contact us at:
+  //   <a href="mailto:your-email@example.com">your-email@example.com</a>
+  // </p>
+</section>
